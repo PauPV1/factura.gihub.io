@@ -1,0 +1,101 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+/* Encabezado */
+header {
+  background-color: #424ddf;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 0px;
+  position: relative;
+}
+
+
+/* Contenido principal */
+section {
+  background-color: #58cbe1;
+  height: auto;
+  font-size: 16px;
+}
+
+.secciones {
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  width: 100%;
+}
+
+legend {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+input[type="submit"] {
+  background-color: #424ddf;
+  color: #fff;
+  
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+
+#addconcepto {
+  display: block;
+  background-color: #424ddf;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+#conceptos {
+  margin-bottom: 20px;
+}
+
+.concepto {
+  margin-bottom: 20px;
+}
+footer{
+  background-color: #424ddf;
+  text-align: center;
+  color: antiquewhite;
+  height: 50px;
+  padding: 15px;
+}
+img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
